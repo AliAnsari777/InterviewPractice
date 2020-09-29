@@ -12,7 +12,12 @@ class ReverseStringTest {
     }
 
     @Test
-    public void checkExist(){
-        Assertions.assertEquals("eyb doog", ReverseString.reverseString("good bye"));
+    public void checkReverseString2(){
+        Assertions.assertEquals("eyb doog", ReverseString.reverseString2("good bye"));
+    }
+
+    @Test
+    public void checkStringWithSpace(){
+        Assertions.assertEquals("   ila", ReverseString.reverseString("ali   "));
     }
 }
